@@ -1,0 +1,32 @@
+.solutions-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  &__item {
+    flex-basis: 25%;
+    cursor: pointer;
+  }
+
+  &__icon {
+    width: 50%;
+  }
+
+  &__inner {
+    border: 1px solid $color-white;
+    padding: rem-calc(50 20 44 20);
+
+    &:hover {
+      border-color: $color-gray;
+    }
+  }
+
+  &__link {
+    opacity: 0;
+  }
+}
+
+.solutions-list__item:hover .solutions-list__link { opacity: 1; }

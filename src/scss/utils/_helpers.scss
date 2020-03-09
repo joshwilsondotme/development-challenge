@@ -1,0 +1,20 @@
+.u-fz-sml { font-size: rem-calc(16) !important; }
+.u-fz-med { font-size: rem-calc(24) !important; }
+.u-fz-lrg { font-size: rem-calc(48) !important; }
+.u-fz-xlrg { font-size: rem-calc(56) !important; }
+
+.u-margin-sml { margin-bottom: rem-calc(16); }
+.u-margin-med { margin-bottom: rem-calc(24); }
+.u-margin-lrg { margin-bottom: rem-calc(48); }
+.u-margin-xlrg { margin-bottom: rem-calc(56); }
+.u-margin-top-0 {margin-top: 0;}
+
+.u-color-white { color: $color-white !important; }
+.u-color-base-font { color: $color-base-font; }
+.u-ff-title { font-family: $base-title-font-family !important; }
+
+.u-tt-uppercase { text-transform: uppercase !important; }
+
+.u-link {text-decoration: none;}
+
+.text-centered { text-align: center !important; }

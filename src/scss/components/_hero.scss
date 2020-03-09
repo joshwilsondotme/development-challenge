@@ -1,0 +1,43 @@
+.hero {
+  background: url(../../../images/hero-bg.jpg) rgba(177, 24, 30, 1);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh;
+
+  &__title {
+    color: $color-white;
+  }
+
+  &__subtext {
+    font-weight: 300;
+    font-size: rem-calc(24);
+    color: $color-base-font-light;
+    margin-bottom: rem-calc(56);
+  }
+
+  &__link {
+
+  }
+
+}
+
+.c-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: $color-white;
+  border-radius: 50%;
+  border: 2px solid $color-white;
+  width: rem-calc(84);
+  height: rem-calc(84);
+  background:rgba(255, 255, 255, .4);
+  margin-left: auto;
+  margin-right: auto;
+  i {
+    position: relative;
+    top: rem-calc(2);
+    left: rem-calc(3);
+  }
+}
+

@@ -1,0 +1,11 @@
+
+.btn {
+  display: inline-flex;
+  padding: rem-calc(15 50);
+  border-radius: rem-calc(3);
+  background: linear-gradient(135deg, $color-primary, #8D1116);
+  color: $color-white;
+  font-family: $base-title-font-family;
+  text-transform: uppercase;
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+.hp-section {
+  &__intro {
+    padding: rem-calc(130 0);
+  }
+  &__serving {
+    background: linear-gradient( to bottom, $color-white 40px, $color-lightgray 40px, $color-lightgray, $color-lightgray 90%, $color-white 90%);
+
+    h2 {
+      margin-top: rem-calc(78);
+    }
+  }
+  &__solutions {
+    padding: rem-calc(90 0 0 0);
+  }
+
+  &__carousel {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    .left-image {
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 1;
+
+      background-color: rgba(177, 24, 30, 1);
+      background-size: cover;
+      background-blend-mode: multiply;
+    }
+
+    .left-content {
+      grid-column-start: 2;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      font-size: rem-calc(22);
+      z-index: 2;
+      padding: rem-calc(90 0);
+      justify-self: center;
+      color: $color-white;
+    }
+  }
+}
